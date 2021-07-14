@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    /* -----------------
+        Poppins-font 
+    -------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+ /* ----------------------
+        container-on 
+ ------------------------*/
+header{
+    background-color: #2D25A0;
+    width: 100%;
+    height: 670px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.list-aitem ul{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.list-aitem ul li{
+    margin-right: 36px;
+    list-style-type: none;
+}
+.list-aitem ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px; 
+}
+
+.logo-button{
+    background-color: #E02C6D;
+    padding: 10px 22px;
+    margin-right: 150px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.logo-button i{
+    color: #fff;
+    margin-right: 8px;
+}
+.logo-button a {
+    text-decoration: none;
+    color: #fff;
+}
+.header-artacle{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-aitem{
+    Width:485px;
+    Height:230px;
+    margin-top: 110px;
+}
+.header-aitem h1{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.header-aitem a{
+    padding: 10px 22px;
+    font-size: 16px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner-img img{
+    width:556px;
+    height: 438px;
+    margin-top: 60px;
+}
+ 
+    /*------------------------------------
+                section-2 for album 
+    -------------------------------------*/
+.content{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 70px;
+    grid-gap: 20px;
+}
+.article{
+    width: 230px;
+    height: 380px;
+    padding: 20px 20px 35px 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+.article img{
+    width: 100%;
+}
+.article h3{
+    margin-top: 16px;
+    font-size: 28px;
+}
+.article p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* -----------------------------------
+        messi text img and title
+----------------------------------- */
+.messi{
+    display: flex;
+    margin-top: 160px;
+}
+.messi-text{
+    width: 40%;
+    margin: 20px 20px 0px 30px;
+    padding:15px;
+}
+.messi-text h2{
+    font-size: 48px;
+}
+.messi-text p{
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #969696;
+}
+.messi-sot{
+    width: 50%;
+}
+.messi-sot img{
+    width: 467px;
+    height: 327px;
+}
+.messi-text a{
+    padding: 10px 22px;
+    font-size: 16px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+footer{
+    width: 100%;
+
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-img{
+    margin-top: 100px;
+}
+.social-logo{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.social-logo i{
+    margin-right: 14px;
+    background: #d6d7dd;
+    color: #969BAB;
+    padding:10px;
+    border-radius: 50%;
+}
+.end{
+    color: black;
+}
